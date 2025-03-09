@@ -69,7 +69,7 @@ The goal is to train and evaluate neural networks to accurately segment grain bo
 * ResNet: Improved with skip connections; high loss suggests noisy predictions.
 * ViT: Balanced performance, minor underestimation of grain size.
   
-![ResNET Image](resnet_result_example)
+![ResNET Image](resnet_result_example.png)
 
 ### Future work
 * Tune ResNet’s dropout or learning rate for lower test loss.
