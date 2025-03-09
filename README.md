@@ -1,4 +1,4 @@
-# Grain Segmentation
+# Compare Grain Segmentation with different Architectures
 
 This project implements and compares three deep learning models—U-Net, ResNet, and Vision Transformer (ViT)—for segmenting grain boundaries in stainless steel microstructure images. The dataset used is the [ExONE Stainless Steel 316L Grains 500X](https://www.kaggle.com/datasets/peterwarren/exone-stainless-steel-316l-grains-500x) from Kaggle, containing grayscale images (`Grains`) and their corresponding segmentation masks (`Segmented`).
 
@@ -68,6 +68,8 @@ The goal is to train and evaluate neural networks to accurately segment grain bo
 * U-Net: Best performer (lowest loss, highest Dice), slightly overestimates grain size.
 * ResNet: Improved with skip connections; high loss suggests noisy predictions.
 * ViT: Balanced performance, minor underestimation of grain size.
+  
+![ResNET Image](resnet_result_example)
 
 ### Future work
 * Tune ResNet’s dropout or learning rate for lower test loss.
